@@ -20,11 +20,11 @@ public class LapTimeServiceTest {
     LapTimeRepo lapTimeRepo = mock(LapTimeRepo.class);
 
     List<LapTime> allLapTimes = Arrays.asList(
-            new LapTime(4),
-            new LapTime(8),
-            new LapTime(12),
+            new LapTime(6),
+            new LapTime(10),
             new LapTime(16),
-            new LapTime(20));
+            new LapTime(24),
+            new LapTime(35));
 
     @Test
     public void SortLapTimesInAscendingOrder(){
